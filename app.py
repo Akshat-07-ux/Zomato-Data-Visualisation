@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
-import preprocess
-import helper
 from streamlit_folium import st_folium
 from PIL import Image
+import plotly.express as px
+import folium
+
+# Import your custom modules
+import preprocess
+import helper
 
 icon = Image.open('icon.png')
 st.set_page_config(page_title= 'Zomato Data Visualisation',page_icon=icon)
